@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.582),rgba(0,0,0,.7)), url(../Images/background.png);
+    font-family: Arial, Helvetica, sans-serif ;
+    color: rgb(245,245,245);
+    
+}
+
+/*HEADER*/
+img{
+    width: 250px;
+    padding: 30px
+}
+
+.header{
+    width: 100%;
+}
+
+
+/*SIGN IN*/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.title h1{
+    margin: 50px 20px 10px 0px;
+}
+
+.sign-in-block{
+    border-radius: 5px;
+    background-color: rgb(0,0,0,.7);
+    width: 500px;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-in-2{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.title{
+    margin: 20px 0px 20px;
+    font-size: 18px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input{
+    color: #ffff;
+    width: 100%;
+    height: 55px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 9px 0 9px 20px;
+    border: none;
+    background-color: rgb(43, 42, 42);
+    font-size: 17px;
+}
+
+.button button{
+    width: 100%;
+    height: 55px;
+    border-radius: 4px;
+    margin-top: 20px;
+    background-color: rgb(229, 9, 20);
+    color: rgb(255,255,255);
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    
+    
+}
+
+.button button:hover {
+    background-color: rgb(138, 4, 11);
+    cursor : pointer;
+}
+
+.under-sign-in{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 20px;
+    color:rgb(117, 113, 113)
+
+}
+
+
+.need-help {
+    text-decoration: none;
+    color:rgb(117, 113, 113)
+}
+
+
+.need-help:hover{
+    text-decoration: underline;
+    
+}
+
+
+.more-info{
+    margin-top: 70px;
+    display: flex;
+    color:rgb(117, 113, 113)
+}
+
+.more-info span{
+    margin-right: 3px;
+    font-size: 16px;
+}
+
+.more-info a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(255,255,255);
+    
+}
+
+.more-info a:hover{
+    text-decoration:underline;
+}   
+
+
+
+
+
+
+/*FOOTER*/
+.footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 80px;
+
+    
+}
+
+.block1{
+    display: flex;
+    display: flex;
+}
+
+.block1 span{
+    margin: 50px 3px 30px 80px;
+}
+
+.block1 a{
+    margin: 50px 30px 30px 3px;
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+.block1 a:hover{
+    text-decoration: underline;
+}
+
+
+
+.block2{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 15px 76px 0px ;
+    
+}
+
+.block2 a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    
+   
+}
+
+.block2 a:hover{
+    text-decoration: underline;
+}
+
+
+.block3{
+    display: flex;
+    justify-content: space-between;
+    width: 37%;
+    margin-bottom: 40px;
+    margin: 15px 76px 50px ;
+   
+}
+
+.block3 a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    
+
+
+}
+
+.block3 a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
